@@ -204,6 +204,20 @@ kernel/drivers/net/slip/slhc.ko:
 kernel/drivers/net/wimax/i2400m/i2400m.ko: kernel/net/wimax/wimax.ko kernel/net/rfkill/rfkill.ko
 kernel/drivers/net/wimax/i2400m/i2400m-usb.ko: kernel/drivers/net/wimax/i2400m/i2400m.ko kernel/net/wimax/wimax.ko kernel/net/rfkill/rfkill.ko
 kernel/drivers/cdrom/cdrom.ko:
+kernel/drivers/usb/storage/uas.ko:
+kernel/drivers/usb/storage/ums-alauda.ko:
+kernel/drivers/usb/storage/ums-cypress.ko:
+kernel/drivers/usb/storage/ums-datafab.ko:
+kernel/drivers/usb/storage/ums-eneub6250.ko:
+kernel/drivers/usb/storage/ums-freecom.ko:
+kernel/drivers/usb/storage/ums-isd200.ko:
+kernel/drivers/usb/storage/ums-jumpshot.ko:
+kernel/drivers/usb/storage/ums-karma.ko:
+kernel/drivers/usb/storage/ums-onetouch.ko:
+kernel/drivers/usb/storage/ums-realtek.ko:
+kernel/drivers/usb/storage/ums-sddr09.ko:
+kernel/drivers/usb/storage/ums-sddr55.ko:
+kernel/drivers/usb/storage/ums-usbat.ko:
 kernel/drivers/usb/serial/aircable.ko:
 kernel/drivers/usb/serial/ark3116.ko:
 kernel/drivers/usb/serial/belkin_sa.ko:
@@ -250,6 +264,12 @@ kernel/drivers/usb/serial/ti_usb_3410_5052.ko:
 kernel/drivers/usb/serial/visor.ko:
 kernel/drivers/usb/serial/whiteheat.ko:
 kernel/drivers/usb/misc/cypress_cy7c63.ko:
+kernel/drivers/usb/isp1760/isp1760.ko:
+kernel/drivers/usb/image/mdc800.ko:
+kernel/drivers/usb/image/microtek.ko:
+kernel/drivers/usb/usbip/usbip-core.ko:
+kernel/drivers/usb/usbip/vhci-hcd.ko: kernel/drivers/usb/usbip/usbip-core.ko
+kernel/drivers/usb/usbip/usbip-host.ko: kernel/drivers/usb/usbip/usbip-core.ko
 kernel/drivers/input/misc/ad714x.ko:
 kernel/drivers/input/misc/ad714x-i2c.ko: kernel/drivers/input/misc/ad714x.ko
 kernel/drivers/input/misc/ad714x-spi.ko: kernel/drivers/input/misc/ad714x.ko
